@@ -11,7 +11,7 @@ function Add()
 function Sub()
 {
     GetNumber();
-     document.getElementById('Result').innerHTML = a - b;
+     document.getElementById('Result').innerHTML = (a - b);
 }
 
 function Multiplcation()
@@ -26,7 +26,7 @@ function Division()
     
     if(b===0)
     {
-        console.log("infinity");
+        console.log("b value cannot be zero ");
     }
 else
     { 
